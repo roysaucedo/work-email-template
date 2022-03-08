@@ -344,12 +344,16 @@
                             <td align="center" valign="top">
                               <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                  <td align="center" valign="top" width="74" style="width:74px;"><a
+                                  <td align="center" valign="top" width="74" style="width:74px;">
+                                    <a
                                       href="{{ order.order_status_url }}" target="_blank"
-                                      style="text-decoration:none;"><img src="{{ line.image | img_url: 'small' }}"
+                                      style="text-decoration:none;">
+                                      <img src="{{ line.image | img_url: '74x' }}"
                                         alt="" width="74"
                                         style="display:block; max-width:74px; font-family: 'Futura PT', Arial, sans-serif; font-size:15px; line-height:28px; color:#000000; font-weight:bold;"
-                                        border="0" /></a></td>
+                                        border="0">
+
+                                    </a></td>
                                   <td class="em_defaullink em_font15" align="left" valign="middle"
                                     style="font-family: Arial, sans-serif; font-size:15px; line-height:23px; color:#313131;">
                                 {{ line.product.title }}</td>
